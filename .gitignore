@@ -1,0 +1,18 @@
+ # ignore terraform state and module files
+.terraform/
+.terraform/*
+*/.terraform/*
+*.tfstate*
+secrets.local.tf
+*.log
+*.plan
+.idea/*
+.idea/
+*/.idea/*
+.DS_Store
+.DS_Store?
+override.tf
+*.sw[op]
+*.zip
+*.exe
+*~
